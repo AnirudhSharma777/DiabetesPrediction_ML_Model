@@ -14,6 +14,9 @@ exploration notebook, a reproducible training script that compares seven
 classifiers and saves the best one, and an interactive Streamlit web app that
 demonstrates how the model works.
 
+New to the project? Read [WALKTHROUGH.md](WALKTHROUGH.md) for a step-by-step
+explanation of how everything works, from the CSV file to a prediction in the app.
+
 ## Project files
 
 | File | What it does |
@@ -22,6 +25,7 @@ demonstrates how the model works.
 | `DiabetesPredictionModel.ipynb` | Exploration notebook: EDA, outlier checks and a first model comparison. |
 | `diabetes_model.py` | Shared code: feature list, preprocessing pipeline and candidate models. |
 | `train.py` | Trains, compares and evaluates the models; saves `model/diabetes_model.joblib` and `model/metrics.json`. |
+| `WALKTHROUGH.md` | Step-by-step guide explaining how the project works, with runnable snippets and a Q&A. |
 | `app.py` | Streamlit web app to try the model, view its performance and explore the data. |
 | `model/` | Saved pipeline (preprocessing + model) and evaluation metrics used by the app. |
 | `main.py` | Opens the CSV in D-Tale for interactive exploration. |
