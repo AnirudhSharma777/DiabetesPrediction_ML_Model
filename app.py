@@ -258,7 +258,7 @@ with tab_how:
 
 ### Reproduce
 ```bash
-pip install -r requirement.txt
+pip install -r requirements.txt
 python train.py       # retrain and save the model + metrics
 streamlit run app.py  # launch this app
 ```
