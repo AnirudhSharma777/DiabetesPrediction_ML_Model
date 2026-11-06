@@ -1,0 +1,11 @@
+pandas
+numpy
+matplotlib
+seaborn
+scikit-learn>=1.7,<1.8
+joblib
+dtale
+jupyter
+xgboost
+streamlit>=1.50
+plotly
